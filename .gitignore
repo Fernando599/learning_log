@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.env/
+venv/
+env/
+# virtualenv
+# .venv/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media/
+static/ 
+# if collected static files are not meant to be version controlled
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+.Trashes
+Thumbs.db
