@@ -8,7 +8,7 @@ class Topic(models.Model):
         return self.name
     
 class Entry(models.Model):
-    topic = models.ForeignKey(Topic, on_delete=models.PROTECT)
+    topic = models.ForeignKey(Topic, on_delete=models.PROTECT, related_name='entries')
     created_date = models.DateTimeField(auto_now_add=True)
     text = models.TextField()
 
