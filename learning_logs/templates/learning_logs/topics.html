@@ -1,7 +1,6 @@
 {% extends "global/base.html" %}
 
 {% block content %}
-    <a href="{% url "index" %}">Home</a>
     <h1>Tópicos:</h1>
 
         <ul>
@@ -11,5 +10,7 @@
                 <li>Não há tópicos adicionados.</li>
             {% endfor %}
         </ul>
+
+        <a href="{% url "new_topic" %}">Adicionar novos tópicos.</a>
     
 {% endblock content %}
